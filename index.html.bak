@@ -1,0 +1,20 @@
+<html>
+<head><title>Door Animation</title></head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+
+<div class="frame">
+	<h1>Hi! <br> Good to see you</h1>
+	
+	<div class="door">
+		<div class="panels"></div>
+		<div class="panels"></div>
+		<div class="lockset"></div>
+	</div>
+</div>
+
+
+</body>
+</html>
