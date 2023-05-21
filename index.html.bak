@@ -1,20 +1,38 @@
+<!DOCTYPE html>
 <html>
-<head><title>Door Animation</title></head>
-<link rel="stylesheet" href="style.css">
+<head>
+    <title>Door Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
+    <div class="overallWrapper">
+        <div class="wrapper">
+            <img src="https://i.ibb.co/bv2SP6b/Image-1.jpg" alt="Door Image">
+            <div class="door"></div>
+            <h1 id="message">
+                <i class="fa fa-quote-left" aria-hidden="true"></i><br><br>
+                Good to see you. Now the gate is opening with some more slow pace!<br><br>Regards.
+                
+            </h1>
+        </div>
+    </div>
 
+    <script>
+        const wrapper = document.querySelector('.wrapper');
+        const door = document.querySelector('.door');
+        const message = document.getElementById('message');
+        const closeButton = message.querySelector('#message');
 
+        door.addEventListener('click', () => {
+            wrapper.classList.add('open');
+            message.classList.add('open');
+        });
 
-<div class="frame">
-	<h1>Hi! <br> Good to see you</h1>
-	
-	<div class="door">
-		<div class="panels"></div>
-		<div class="panels"></div>
-		<div class="lockset"></div>
-	</div>
-</div>
-
-
+        closeButton.addEventListener('click', () => {
+            wrapper.classList.remove('open');
+            message.classList.remove('open');
+        });
+    </script>
 </body>
 </html>
