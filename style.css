@@ -37,11 +37,11 @@ body {
 }
 
 .door {
-  width: 50.8%;
-  height: 90%;
+  width: 40%;
+  height: 65.5%;
   position: absolute;
-  left: 89px;
-  top: 39px;
+  left: 129px;
+  top: 90px; 
   transition: 3s;
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
@@ -55,11 +55,11 @@ body {
   
 }
 .door2{
-  width: 30%;
-  height: 48%;
+  width: 38%;
+  height: 65.5%;
   position: absolute;
   left: 136px;
-  top: 192px;
+  top: 92px;
   transition: 3s;
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
@@ -89,8 +89,8 @@ body {
   
 }
 .door4 {
-  width: 50%;
-  height: 79%;
+  width: 48%;
+  height: 65.5%;
   position: absolute;
   left: 105px;
   top: 95px;
@@ -108,10 +108,10 @@ body {
 }
 
 .door5 {
-  width: 18%;
-  height: 38.5%;
+  width: 35%;
+  height: 65.5%;
+  top: 92px; 
   position: absolute;
-  top: 192px; 
   transition: 4s;
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
@@ -121,7 +121,7 @@ body {
   
 }
 .door5.left1 {
-  left: 130px;
+  left: 60px;
   transform-origin: left center;
   background-image: url("images/gate 5 part 2.1.jpg");
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body {
 }
 
 .door5.right1 {
-  right: 130px;
+  right: 60px;
   transform-origin: right center;
   background-image: url("images/gate 5 part 2.2.jpg");
   background-repeat: no-repeat;
@@ -152,9 +152,9 @@ body {
 
 .door6 {
   width: 25%;
-  height: 66%;
-  position: absolute;
-  top: 90.5px; 
+  height: 65.5%;
+   top: 90.5px; 
+ position: absolute;
   transition: 4s;
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
@@ -192,17 +192,17 @@ body {
 }
 
 
+
 .door7 {
   width: 38%;
-  height: 89%;
+  height: 70.5%;
   position: absolute;
   top: 65px; 
   transition: 4s;
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
   cursor: pointer;
-  opacity:1;  box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
-  
+  opacity:1;
   
 }
 .door7.left3 {
@@ -253,7 +253,7 @@ body {
 }
 .door8.left4 {
   left: 95px;
-  height: 65.5%;
+  height: 65%;
   transform-origin: left center;
   background-image: url("images/gate 8 part 2.1.jpg");
   background-repeat: no-repeat;
@@ -284,11 +284,11 @@ body {
 
 
 .door9{
-  width: 51%;
-  height: 87%;
-  position: absolute;
+  width: 43%;
+ height: 65.5%;
+   position: absolute;
   left: 97px;
-  top: 57px;
+  top: 67px;
   transition: 3s;
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
