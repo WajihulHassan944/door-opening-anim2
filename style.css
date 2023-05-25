@@ -202,7 +202,7 @@ body {
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
   cursor: pointer;
-  opacity:1;
+ box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25); opacity:1;
   
 }
 .door7.left3 {

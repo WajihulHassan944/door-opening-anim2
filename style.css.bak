@@ -202,7 +202,7 @@ body {
   transform-origin: right center; /* Adjusted line */
   transform-style: preserve-3d;
   cursor: pointer;
-  opacity:1;
+ box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25); opacity:1;
   
 }
 .door7.left3 {
@@ -284,7 +284,7 @@ body {
 
 
 .door9{
-  width: 45%;
+  width: 43%;
  height: 65.5%;
    position: absolute;
   left: 97px;
@@ -294,6 +294,7 @@ body {
   transform-style: preserve-3d;
   background-image: url("images/wall3.png");
   background-repeat: no-repeat;
+  box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
   background-size: 100% 100%;
   cursor: pointer;
   opacity:1; 
